@@ -2746,7 +2746,7 @@ video.responsive-video {
 .parallax-container {
   position: relative;
   overflow: hidden;
-  height: 500px;
+  height: 600px;
 }
 
 .parallax {
@@ -4183,7 +4183,7 @@ nav ul a span.badge {
 
 nav {
   color: #fff;
-  background-color: #ee6e73;
+  background-color: rgba(0,0,0,.6);
   width: 100%;
   height: 56px;
   line-height: 56px;
@@ -4204,7 +4204,7 @@ nav.nav-extended .nav-content {
 }
 
 nav a {
-  color: #fff;
+  color: white;
 }
 
 nav i,
@@ -4328,7 +4328,7 @@ nav ul a.btn > .material-icons, nav ul a.btn-large > .material-icons, nav ul a.b
 }
 
 nav ul a:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(24, 59, 10, 0.3);
 }
 
 nav ul.left {
