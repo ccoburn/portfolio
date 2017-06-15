@@ -1,18 +1,29 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
+
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: white;
 }
 
 p {
   line-height: 2rem;
+}
+
+.transparent {
+  background-color: rgba(0,0,0,.6);
+}
+
+.screenshot {
+  width: 400px;
+}
+
+.tab-space {
+  display: flex;
+  justify-content: space-around;
+}
+
+#tab-center {
+  margin-left: inherit;
 }
 
 .button-collapse {
@@ -20,13 +31,19 @@ p {
 }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 400px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
 }
   .parallax-container .section {
     width: 100%;
+  }
+
+  .parallax-container-hero {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
   }
 
 @media only screen and (max-width : 992px) {
