@@ -1880,7 +1880,7 @@
 }
 
 .brown-text {
-  color: #795548 !important;
+  color: #7a8318 !important;
 }
 
 .brown.lighten-5 {
@@ -2547,9 +2547,9 @@ ul:not(.browser-default) {
   list-style-type: none;
 }
 
-ul:not(.browser-default) li {
+/*ul:not(.browser-default) li {
   list-style-type: none;
-}
+}*/
 
 a {
   color: #039be5;
@@ -4462,7 +4462,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 h1 {
-  font-size: 4.2rem;
+  font-size: 3.5rem;
   line-height: 110%;
   margin: 2.1rem 0 1.68rem 0;
 }
@@ -5010,7 +5010,7 @@ small {
 }
 
 .tabs .tab a {
-  color: rgba(238, 110, 115, 0.7);
+  color: rgba(1, 31, 7, 0.95);
   display: block;
   width: 100%;
   height: 100%;
@@ -5023,12 +5023,12 @@ small {
 
 .tabs .tab a:hover, .tabs .tab a.active {
   background-color: transparent;
-  color: #ee6e73;
+  color: #45961a;
 }
 
 .tabs .tab.disabled a,
 .tabs .tab.disabled a:hover {
-  color: rgba(238, 110, 115, 0.7);
+  color: rgba(1, 60, 14, 0.7);
   cursor: default;
 }
 
@@ -5036,7 +5036,7 @@ small {
   position: absolute;
   bottom: 0;
   height: 2px;
-  background-color: #f6b2b5;
+  background-color: rgba(1, 31, 7, 0.95);
   will-change: left, right;
 }
 
@@ -7125,7 +7125,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .side-nav {
   position: fixed;
-  width: 300px;
+  width: 200px;
   left: 0;
   top: 0;
   margin: 0;
@@ -7135,7 +7135,7 @@ input[type=range]:focus::-ms-fill-upper {
   height: calc(100% + 60px);
   height: -moz-calc(100%);
   padding-bottom: 60px;
-  background-color: #fff;
+  background-color: rgba(15, 31, 16, 0.88);
   z-index: 999;
   overflow-y: auto;
   will-change: transform;
@@ -7168,7 +7168,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .side-nav li > a {
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(255, 255, 255, 0.87);
   display: block;
   font-size: 14px;
   font-weight: 500;
@@ -7330,7 +7330,7 @@ input[type=range]:focus::-ms-fill-upper {
   padding: 0;
 }
 
-#sidenav-overlay {
+/*#sidenav-overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -7338,7 +7338,7 @@ input[type=range]:focus::-ms-fill-upper {
   height: 120vh;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 997;
-  will-change: opacity;
+  will-change: opacity;*/
 }
 
 /*
